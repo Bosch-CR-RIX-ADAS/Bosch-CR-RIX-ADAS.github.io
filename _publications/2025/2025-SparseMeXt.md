@@ -10,12 +10,12 @@ abstract: >-
 
 cover: /assets/images/research/2025-sparsemext/2025_sparsemext.png
 authors:
-- [Anqing Jiang*$^{\dagger}$](https://scholar.google.com/citations?user=-aeaposAAAAJ&hl=ja)
+- Anqing Jiang*$^{\dagger}$
 - Jinhao Chai
 - Yu Gao
 - Yiru Wang
 - Zhigang Sun
-- [Hao Sun](https://scholar.google.com/citations?user=lTMSUYEAAAAJ&hl=en)
+- Hao Sun
 - Lijuan Zhu
 links:
   Project Page: SparseMeXT.github.io

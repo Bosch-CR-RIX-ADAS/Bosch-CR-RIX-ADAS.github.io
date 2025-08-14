@@ -12,7 +12,7 @@ cover: /assets/images/research/2025-diffsemfusion/2025_diffsemfusion.png
 authors:
     - Zhigang Sun*
     - Yiru Wang$^{\dagger}$
-    - [Anqing Jiang*](https://scholar.google.com/citations?user=-aeaposAAAAJ&hl=ja)
+    - Anqing Jiang*
     - Shuo Wang
     - Yu Gao
     - Yuwen Heng
@@ -25,7 +25,7 @@ authors:
     - Shichen Tang
     - Lavdim Halilaj
     - Juergen Luettin
-    - [Hao Sun](https://scholar.google.com/citations?user=lTMSUYEAAAAJ&hl=en)
+    - Hao Sun
 links:
   Project Page: https://github.com/SunZhigang7/DiffSemanticFusion
   Paper: https://arxiv.org/abs/2508.01778
