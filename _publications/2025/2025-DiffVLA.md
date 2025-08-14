@@ -11,7 +11,7 @@ abstract: >-
 
 cover: /assets/images/research/2025-diffvla/2025_diffvla.png
 authors:
-- Anqing Jiang*
+- [Anqing Jiang*$^{\dagger}$](https://scholar.google.com/citations?user=-aeaposAAAAJ&hl=ja)
 - Yu Gao
 - Zhigang Sun
 - Yiru Wang
@@ -23,7 +23,7 @@ authors:
 - Yunda Dong
 - Zongzheng Zhang
 - Xianda Guo
-- Hao Sun
+- [Hao Sun](https://scholar.google.com/citations?user=lTMSUYEAAAAJ&hl=en)
 - Hao Zhao
 links:
   Project Page: diffvla.github.io

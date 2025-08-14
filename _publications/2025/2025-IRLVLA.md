@@ -10,13 +10,13 @@ abstract: >-
 
 cover: /assets/images/research/2025-irlvla/2025_irlvla.png
 authors:
-    - Anqing Jiang*
+    - [Anqing Jiang*](https://scholar.google.com/citations?user=-aeaposAAAAJ&hl=ja)
     - Yu Gao*
     - Yiru Wang
     - Zhigang Sun
     - Shuo Wang
     - Yuwen Heng
-    - Hao Sun$^{\dagger}$
+    - [Hao Sun$^{\dagger}$](https://scholar.google.com/citations?user=lTMSUYEAAAAJ&hl=en)
     - Shichen Tang
     - Lijuan Zhu
     - Jinhao Chai
