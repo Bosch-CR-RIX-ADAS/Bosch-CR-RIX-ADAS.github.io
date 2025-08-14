@@ -1,6 +1,6 @@
-primary_name: "Bosch CR/RIX ADAS Home Page"
+primary_name: "Bosch CR/RIX-AP ADAS Lab"
 secondary_name: ""
-navbar_name: "Your Name"
+navbar_name: "Bosch CR/RIX-AP ADAS Lab"
 
 positions:
 - logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
