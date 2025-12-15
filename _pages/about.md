@@ -22,7 +22,7 @@ redirect_from:
 ## Publications
 
 {% assign selected_publications = site.publications | where: "select", true | reverse %}
-{% for post in selected_publications limit:5 %}
+{% for post in selected_publications limit:15 %}
   {% include archive-single.html %}
 {% endfor %}
 
