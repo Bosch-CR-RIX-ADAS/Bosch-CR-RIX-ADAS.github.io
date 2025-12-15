@@ -5,7 +5,7 @@ category: manuscripts
 permalink: /publication/2025-0512-SparseMeXt
 teaser: ''
 excerpt: 'SparseMeXt is the first sparse paradigm to surpass dense methods in online HD map construction, setting a new benchmark in the field. '
-date: 2009-10-01
+date: 2025-10-19
 venue: 'Journal 1'
 slidesurl: ''
 paperurl: 'https://arxiv.org/pdf/2505.08808'

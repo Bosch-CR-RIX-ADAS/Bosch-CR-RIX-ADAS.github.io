@@ -20,6 +20,17 @@
   }
 }
 
+/* Journal badge shown on publications */
+.archive__journal-badge {
+  display: inline-block;
+  background: #eef6ff;
+  color: var(--global-link-color);
+  padding: 0.25rem 0.6rem;
+  border-radius: $border-radius;
+  font-size: $type-size-7;
+  margin-bottom: 0.75rem;
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
