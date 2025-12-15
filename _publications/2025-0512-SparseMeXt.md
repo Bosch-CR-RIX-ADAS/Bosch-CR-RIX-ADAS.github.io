@@ -2,7 +2,7 @@
 title: "SparseMeXt: Unlocking the Potential of Sparse Representations for HD Map Construction"
 collection: publications
 category: manuscripts
-permalink: /publication/2009-10-01-paper-title-number-1
+permalink: /publication/2025-0512-SparseMeXt
 excerpt: 'SparseMeXt is the first sparse paradigm to surpass dense methods in online HD map construction, setting a new benchmark in the field. '
 date: 2009-10-01
 venue: 'Journal 1'
