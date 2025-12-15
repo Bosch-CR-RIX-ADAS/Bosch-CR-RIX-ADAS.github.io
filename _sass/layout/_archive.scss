@@ -83,6 +83,20 @@
   }
 }
 
+/* Tighter typography for publication bodies */
+.publication__item .publication__body {
+  line-height: 1.45; /* slightly tighter */
+}
+
+.publication__item .publication__body p {
+  margin-bottom: 0.5rem; /* reduce paragraph gap */
+  text-indent: 0.5rem; /* slightly smaller first-line indent */
+}
+
+.publication__item .publication__body li {
+  margin-bottom: 0.35rem;
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;
