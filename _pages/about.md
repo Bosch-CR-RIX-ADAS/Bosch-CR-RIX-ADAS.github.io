@@ -21,6 +21,7 @@ redirect_from:
 
 ## Publications
 
-{% for post in site.publications reversed limit:5 %}
+{% assign selected_publications = site.publications | where: "select", true | reverse %}
+{% for post in selected_publications limit:5 %}
   {% include archive-single.html %}
 {% endfor %}

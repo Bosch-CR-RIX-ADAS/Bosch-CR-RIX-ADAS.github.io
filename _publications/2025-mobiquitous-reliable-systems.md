@@ -9,4 +9,5 @@ date: 2025-12-01
 paperurl: 'https://mobiquitous.eai-conferences.org/2025/accepted-papers/'
 citation: 'Du, Yifan; Song, Zhiying; Li, Nan; Li, Shuo; Sun, Hao. "Towards Reliable Distributed Systems for Safety-Critical Vehicle–Road–Cloud Continuum." Accepted at EAI MobiQuitous 2025.'
 journal: '22nd EAI International Conference on Mobile and Ubiquitous Systems (MobiQuitous 2025)'
+select: 'true'
 ---

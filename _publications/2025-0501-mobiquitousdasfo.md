@@ -9,4 +9,5 @@ date: 2025-05-01
 paperurl: 'https://mobiquitous.eai-conferences.org/2025/accepted-papers/'
 citation: 'Zhang, Jiayin; Li, Shuo; Du, Yifan; Li, Nan. "DASFO: Dependency-Aware Scalable Function Offloading Framework for Intelligent Connected Vehicles." Accepted at EAI MobiQuitous 2025.'
 journal: '22nd EAI International Conference on Mobile and Ubiquitous Systems (MobiQuitous 2025)'
+select: 'false'
 ---

@@ -9,4 +9,5 @@ date: 2025-12-01
 paperurl: 'https://events.vtsociety.org/vtc2025-fall/conference-sessions/in-person-program-schedule/'
 citation: 'Li, Nan; Du, Yifan; Li, Shuo; Sun, Hao. "Latency-Aware Function Offloading with 5G Integration for Intelligent Connected Vehicles." Accepted at IEEE 102nd Vehicular Technology Conference (VTC2025-Fall).'
 journal: 'IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)'
+select: 'false'
 ---

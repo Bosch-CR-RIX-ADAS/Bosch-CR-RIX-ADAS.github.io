@@ -9,4 +9,5 @@ date: 2025-12-01
 paperurl: 'https://events.vtsociety.org/vtc2025-fall/conference-sessions/in-person-program-schedule/'
 citation: 'Du, Yifan; Li, Nan; Li, Shuo; Zhang, Lei; Sun, Hao. "Dependability-Aware Coordination for Infrastructure-Side Critical V2X Services." Accepted at IEEE 102nd Vehicular Technology Conference (VTC2025-Fall).'
 journal: 'IEEE 102nd Vehicular Technology Conference (VTC2025-Fall)'
+select: 'false'
 ---

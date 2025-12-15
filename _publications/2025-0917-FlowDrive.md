@@ -11,4 +11,5 @@ codeurl: 'https://github.com/AstrixDrive/FlowDrive'
 projecturl: 'https://astrixdrive.github.io/FlowDrive.github.io/'
 citation: 'Jiang, Hao, et al. "FlowDrive: Energy Flow Field for End-to-End Autonomous Driving." arXiv preprint arXiv:2509.14303 (2025).'
 journal: 'ArXiv'
+select: 'true'
 ---
