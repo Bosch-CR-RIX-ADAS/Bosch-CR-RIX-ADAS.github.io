@@ -12,5 +12,6 @@ opensource_url: 'https://github.com/SparseMeXT/SparseMeXT'
 project_url: 'SparseMeXT.github.io'
 # bibtexurl: 'https://academicpages.github.io/files/bibtex1.bib'
 citation: 'Jiang, Anqing, et al. "Sparsemext unlocking the potential of sparse representations for hd map construction." IROS(2025).'
+journal: 'iros 2025'
 ---
 SparseMeXt is the first sparse paradigm to surpass dense methods in online HD map construction, setting a new benchmark in the field. 

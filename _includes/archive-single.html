@@ -34,6 +34,10 @@
       {% endif %}
     </h2>
     
+    {% if post.journal %}
+          <div className="uk-card-badge uk-label">{{ post.journal }}</div>
+    {% endif %}
+
     {% if post.read_time %}
       <p class="page__meta"><i class="fa fa-clock" aria-hidden="true"></i> {% include read-time.html %}</p>
     {% endif %}
