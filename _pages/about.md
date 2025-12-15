@@ -25,3 +25,17 @@ redirect_from:
 {% for post in selected_publications limit:5 %}
   {% include archive-single.html %}
 {% endfor %}
+
+---
+
+## Partners & Affiliates
+
+{% include base_path %}
+<div class="logo-grid">
+  {% assign logos = site.static_files | where_exp:"f","f.path contains '/images/school_logos/'" %}
+  {% for logo in logos %}
+    <div class="logo-grid__item">
+      <img src="{{ logo.path | prepend: base_path }}" alt="logo">
+    </div>
+  {% endfor %}
+</div>
