@@ -14,7 +14,7 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
-    {% if include.type == "grid" and teaser %}
+    {% if teaser and (post.collection == 'publications' or include.type == "grid") %}
       <div class="archive__item-teaser">
         <img src=
           {% if teaser contains "://" %}
@@ -78,6 +78,10 @@
       <p><a href="{{ post.slidesurl }}">Download Slides</a></p>
     {% elsif post.bibtexurl %}
       <p><a href="{{ post.bibtexurl }}">Download Bibtex</a></p>
+    {% endif %}
+
+    {% if post.projecturl %}
+      <p><a href="{{ post.projecturl }}">Project (code)</a></p>
     {% endif %}
 
   </article>
