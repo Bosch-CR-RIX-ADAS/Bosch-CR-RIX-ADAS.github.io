@@ -3,7 +3,7 @@ title: "SparseMeXt: Unlocking the Potential of Sparse Representations for HD Map
 collection: publications
 category: manuscripts
 permalink: /publication/2025-0512-SparseMeXt
-teaser: 'images/papers/2025_sparsemext.png'
+teaser: '/images/papers/2025_sparsemext.png'
 excerpt: 'SparseMeXt is the first sparse paradigm to surpass dense methods in online HD map construction, setting a new benchmark in the field. '
 date: 2025-10-19
 paperurl: 'https://arxiv.org/pdf/2505.08808'

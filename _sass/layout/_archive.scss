@@ -61,6 +61,28 @@
   height: 1em;
 }
 
+/* Publications two-column layout */
+.publication__item {
+  @include clearfix();
+  margin-bottom: 1.5rem;
+}
+
+.publication__item .archive__item-teaser {
+  margin-bottom: 1rem;
+}
+
+@media (min-width: 48em) {
+  .publication__item .archive__item-teaser {
+    float: left;
+    width: 30%;
+    margin-right: 1.5rem;
+  }
+
+  .publication__item .publication__body {
+    overflow: hidden;
+  }
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;

@@ -16,6 +16,9 @@
 
 <div class="{{ include.type | default: "list" }}__item">
   <article class="archive__item" itemscope itemtype="http://schema.org/CreativeWork">
+    {% if post.collection == 'publications' %}
+      <div class="publication__item">
+    {% endif %}
     {% if teaser and (post.collection == 'publications' or include.type == "grid") %}
       <div class="archive__item-teaser">
         <img src=
@@ -28,6 +31,10 @@
           {% endif %}
           alt="">
       </div>
+    {% endif %}
+
+    {% if post.collection == 'publications' %}
+      <div class="publication__body">
     {% endif %}
 
     <h2 class="archive__item-title" itemprop="headline">
@@ -81,8 +88,12 @@
       {%- assign link_fragments = link_fragments | append: '<span class="link-block"><a class="external-link button is-small is-rounded is-dark" href="' | append: post.codeurl | append: '" target="_blank"><span class="icon"><i class="fab fa-github"></i></span><span>Code</span></a></span>' -%}
     {%- endif -%}
 
-    {%- if link_fragments != "" -%}
-      <p class="archive__links">{{ link_fragments }}</p>
+    {% if post.collection == 'publications' %}
+      </div>
+      </div>
+    {% endif %}
+  </article>
+</div>
     {%- endif -%}
   </article>
 </div>
