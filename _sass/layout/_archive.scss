@@ -72,14 +72,25 @@
 }
 
 @media (min-width: 48em) {
+  .publication__item {
+    display: flex;
+    align-items: flex-start;
+    gap: 1.5rem;
+  }
+
   .publication__item .archive__item-teaser {
-    float: left;
-    width: 30%;
-    margin-right: 1.5rem;
+    flex: 0 0 30%;
+    margin-right: 0;
+  }
+
+  .publication__item .archive__item-teaser img {
+    display: block;
+    width: 100%;
+    height: auto;
   }
 
   .publication__item .publication__body {
-    overflow: hidden;
+    flex: 1;
   }
 }
 
