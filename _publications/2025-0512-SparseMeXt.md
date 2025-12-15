@@ -10,5 +10,5 @@ paperurl: 'https://arxiv.org/pdf/2505.08808'
 codeurl: 'https://github.com/SparseMeXT/SparseMeXT'
 projecturl: 'https://SparseMeXT.github.io'
 citation: 'Jiang, Anqing, et al. "Sparsemext unlocking the potential of sparse representations for hd map construction." IROS(2025).'
-journal: 'IROS'
+journal: 'IEEE/RSJ International Conference on Intelligent Robots and Systems(2025)'
 ---

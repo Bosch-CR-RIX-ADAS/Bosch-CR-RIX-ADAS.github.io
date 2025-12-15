@@ -10,5 +10,5 @@ paperurl: 'https://arxiv.org/pdf/2505.23757'
 codeurl: 'https://github.com/ahydchh/Impromptu-VLA'
 projecturl: 'https://impromptu-vla.c7w.tech/'
 citation: 'Chi, Haohan, et al. "Impromptu VLA: Open Weights and Open Data for Driving Vision-Language-Action Models." arXiv preprint arXiv:2505.23757 (2025).'
-journal: 'NIPS'
+journal: 'The Thirty-Ninth Annual Conference on Neural Information Processing Systems(2025)'
 ---

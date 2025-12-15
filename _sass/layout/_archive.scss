@@ -94,6 +94,14 @@
   }
 }
 
+  /* Remove top gaps for publication text so it aligns with image top */
+  .publication__item .archive__item-title {
+    margin-top: 0;
+  }
+  .publication__item .publication__body > :first-child {
+    margin-top: 0;
+  }
+
 /* Tighter typography for publication bodies */
 .publication__item .publication__body {
   line-height: 1.45; /* slightly tighter */
