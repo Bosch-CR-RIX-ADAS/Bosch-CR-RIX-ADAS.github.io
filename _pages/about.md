@@ -17,17 +17,7 @@ redirect_from:
     </div>
   </div>
 </div>
----
-
 <div style="clear:both"></div>
-
----
-<!-- 
-## News
-
-{% for post in site.news reversed limit:5 %}
-  {% include archive-single.html %}
-{% endfor %} -->
 
 ## Publications
 
