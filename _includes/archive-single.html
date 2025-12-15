@@ -19,8 +19,10 @@
         <img src=
           {% if teaser contains "://" %}
             "{{ teaser }}"
+          {% elsif teaser | slice: 0,1 == "/" %}
+            "{{ teaser | prepend: base_path }}"
           {% else %}
-            "{{ teaser | prepend: "/images/" | prepend: base_path }}"
+            "{{ teaser | prepend: "/" | prepend: base_path }}"
           {% endif %}
           alt="">
       </div>
