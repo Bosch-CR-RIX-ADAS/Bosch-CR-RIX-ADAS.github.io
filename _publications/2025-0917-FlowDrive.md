@@ -8,7 +8,7 @@ excerpt: 'FlowDrive is a novel framework that introduces physically interpretabl
 date: 2025-08-15
 paperurl: 'https://arxiv.org/pdf/2509.14303'
 codeurl: 'https://github.com/AstrixDrive/FlowDrive'
-projecturl: 'https://FlowDrive.github.io/'
+projecturl: 'https://astrixdrive.github.io/FlowDrive.github.io/'
 citation: 'Jiang, Hao, et al. "FlowDrive: Energy Flow Field for End-to-End Autonomous Driving." arXiv preprint arXiv:2509.14303 (2025).'
 journal: 'ArXiv'
 ---
