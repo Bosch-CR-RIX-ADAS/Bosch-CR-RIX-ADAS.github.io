@@ -31,6 +31,36 @@
   margin-bottom: 0.75rem;
 }
 
+/* Inline publication links styled like the target project */
+.archive__links {
+  margin-top: 0.5rem;
+}
+.archive__links .link-block {
+  display: inline-block;
+  margin-right: 0.5rem;
+}
+.archive__links .button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.3rem 0.6rem;
+  border-radius: 999px;
+  background: var(--global-link-color, #0b4f7a);
+  color: #fff;
+  text-decoration: none;
+  font-size: $type-size-7;
+}
+.archive__links .button .icon {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+.archive__links .button .icon .fas,
+.archive__links .button .icon .fab {
+  width: 1em;
+  height: 1em;
+}
+
 .archive__subtitle {
   margin: 1.414em 0 0;
   padding-bottom: 0.5em;

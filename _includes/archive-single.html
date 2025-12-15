@@ -62,27 +62,23 @@
 
     {%- assign link_fragments = "" -%}
     {%- if post.paperurl -%}
-      {%- assign link_fragments = link_fragments | append: '<a href="' | append: post.paperurl | append: '">Paper</a>' -%}
+      {%- assign link_fragments = link_fragments | append: '<span class="link-block"><a class="external-link button is-small is-rounded is-dark" href="' | append: post.paperurl | append: '" target="_blank"><span class="icon"><i class="fas fa-file-pdf"></i></span><span>Paper</span></a></span>' -%}
     {%- endif -%}
     {%- if post.slidesurl -%}
-      {%- if link_fragments != "" -%}{%- assign link_fragments = link_fragments | append: ' | ' -%}{%- endif -%}
-      {%- assign link_fragments = link_fragments | append: '<a href="' | append: post.slidesurl | append: '">Slides</a>' -%}
+      {%- assign link_fragments = link_fragments | append: '<span class="link-block"><a class="external-link button is-small is-rounded is-dark" href="' | append: post.slidesurl | append: '" target="_blank"><span class="icon"><i class="fas fa-file-powerpoint"></i></span><span>Slides</span></a></span>' -%}
     {%- endif -%}
     {%- if post.bibtexurl -%}
-      {%- if link_fragments != "" -%}{%- assign link_fragments = link_fragments | append: ' | ' -%}{%- endif -%}
-      {%- assign link_fragments = link_fragments | append: '<a href="' | append: post.bibtexurl | append: '">Bibtex</a>' -%}
+      {%- assign link_fragments = link_fragments | append: '<span class="link-block"><a class="external-link button is-small is-rounded is-dark" href="' | append: post.bibtexurl | append: '" target="_blank"><span class="icon"><i class="fas fa-file-alt"></i></span><span>Bibtex</span></a></span>' -%}
     {%- endif -%}
     {%- if post.projecturl -%}
-      {%- if link_fragments != "" -%}{%- assign link_fragments = link_fragments | append: ' | ' -%}{%- endif -%}
-      {%- assign link_fragments = link_fragments | append: '<a href="' | append: post.projecturl | append: '">Project</a>' -%}
+      {%- assign link_fragments = link_fragments | append: '<span class="link-block"><a class="external-link button is-small is-rounded is-dark" href="' | append: post.projecturl | append: '" target="_blank"><span class="icon"><i class="fas fa-project-diagram"></i></span><span>Project</span></a></span>' -%}
     {%- endif -%}
     {%- if post.codeurl -%}
-      {%- if link_fragments != "" -%}{%- assign link_fragments = link_fragments | append: ' | ' -%}{%- endif -%}
-      {%- assign link_fragments = link_fragments | append: '<a href="' | append: post.codeurl | append: '">Code</a>' -%}
+      {%- assign link_fragments = link_fragments | append: '<span class="link-block"><a class="external-link button is-small is-rounded is-dark" href="' | append: post.codeurl | append: '" target="_blank"><span class="icon"><i class="fab fa-github"></i></span><span>Code</span></a></span>' -%}
     {%- endif -%}
 
     {%- if link_fragments != "" -%}
-      <p>{{ link_fragments }}</p>
+      <p class="archive__links">{{ link_fragments }}</p>
     {%- endif -%}
 
     {% if post.projecturl %}
