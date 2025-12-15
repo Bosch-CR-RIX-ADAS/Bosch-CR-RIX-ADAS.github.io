@@ -37,15 +37,15 @@
 }
 .archive__links .link-block {
   display: inline-block;
-  margin-right: 0.5rem;
+  margin-right: 0.8rem;
 }
 .archive__links .button {
   display: inline-flex;
   align-items: center;
-  gap: 0.4rem;
-  padding: 0.3rem 0.6rem;
+  gap: 0.45rem;
+  padding: 0.35rem 0.7rem;
   border-radius: 999px;
-  background: var(--global-link-color, #0b4f7a);
+  background: #000; /* black background as requested */
   color: #fff;
   text-decoration: none;
   font-size: $type-size-7;
